@@ -1,0 +1,77 @@
+.custom-header {
+  background-color: #b02ce4;
+  border-bottom: 1px white solid;
+  border-top: 3px rgb(116, 132, 220) solid;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  min-height: 6vh;
+  max-height: 6vh;
+  padding-left: 2%;
+  font-weight: 900;
+}
+
+.custom-header-item {
+  color: white;
+  text-emphasis: 900;
+  min-width: 120px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+main {
+  background-color: #b961dc;
+  min-width: 100vw;
+  min-height: 94vh;
+}
+
+h1 {
+  text-emphasis: 600;
+  font-size: 26px;
+  padding: 25px 10px 0px 40px;
+  color: rgb(169, 241, 121);
+}
+
+h2 {
+  text-emphasis: 600;
+  font-size: 22px;
+  padding: 10px 10px 0px 50px;
+  color: rgb(240, 247, 233);
+}
+
+.center-text {
+  display: table;
+  margin: 0;
+}
+
+#teamsTable {
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  max-width: 1200px;
+  min-width: 750px;
+  margin-left: 10%;
+  margin-top: 2%;
+  column-width: 550px;
+}
+
+#teamsTable th {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #ddd;
+  padding: 4px;
+  min-width: 100px;
+}
+
+#teamsTable tr:nth-child(even) {
+  background-color: #54d0e6;
+}
+
+#teamsTable tr:nth-child(odd) {
+  background-color: #41c2e9;
+  text-align: center;
+  text-align: match-parent;
+}
+
+#teamsTable tr:hover {
+  background-color: #ffff99;
+}
